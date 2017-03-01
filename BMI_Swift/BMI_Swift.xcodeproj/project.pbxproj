@@ -14,6 +14,7 @@
 		EE250CC91E55E33000A89A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE250CC71E55E33000A89A8D /* LaunchScreen.storyboard */; };
 		EE250CD41E55E33000A89A8D /* BMI_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE250CD31E55E33000A89A8D /* BMI_SwiftTests.swift */; };
 		EE250CDF1E55E33000A89A8D /* BMI_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE250CDE1E55E33000A89A8D /* BMI_SwiftUITests.swift */; };
+		EEE04B091E5A8AE700F9CAEE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE04B081E5A8AE700F9CAEE /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EE250CDA1E55E33000A89A8D /* BMI_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMI_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE250CDE1E55E33000A89A8D /* BMI_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI_SwiftUITests.swift; sourceTree = "<group>"; };
 		EE250CE01E55E33000A89A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE04B081E5A8AE700F9CAEE /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EE250CC51E55E33000A89A8D /* Assets.xcassets */,
 				EE250CC71E55E33000A89A8D /* LaunchScreen.storyboard */,
 				EE250CCA1E55E33000A89A8D /* Info.plist */,
+				EEE04B081E5A8AE700F9CAEE /* PageViewController.swift */,
 			);
 			path = BMI_Swift;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE04B091E5A8AE700F9CAEE /* PageViewController.swift in Sources */,
 				EE250CC11E55E33000A89A8D /* ViewController.swift in Sources */,
 				EE250CBF1E55E33000A89A8D /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				EE250CE51E55E33000A89A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE250CE61E55E33000A89A8D /* Build configuration list for PBXNativeTarget "BMI_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				EE250CE81E55E33000A89A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE250CE91E55E33000A89A8D /* Build configuration list for PBXNativeTarget "BMI_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				EE250CEB1E55E33000A89A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
